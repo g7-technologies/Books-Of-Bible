@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.booksofbibles"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.booksofbibles.Verses" />
+        <activity
+            android:name="com.example.booksofbibles.GuidedVideo"
+            android:screenOrientation="landscape" />
+        <activity android:name="com.example.booksofbibles.AskGuidedMethod2" />
+        <activity android:name="com.example.booksofbibles.Sample" />
+        <activity android:name="com.example.booksofbibles.Food" />
+        <activity android:name="com.example.booksofbibles.Challenge" />
+        <activity android:name="com.example.booksofbibles.Chapters" />
+        <activity android:name="com.example.booksofbibles.List_of_books" />
+        <activity android:name="com.example.booksofbibles.SignUp" />
+        <activity android:name="com.example.booksofbibles.Open_book" />
+        <activity android:name="com.example.booksofbibles.AskGuidedMethod" />
+        <activity android:name="com.example.booksofbibles.FoodFamilyFun" />
+        <activity android:name="com.example.booksofbibles.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
