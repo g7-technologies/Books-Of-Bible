@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Challenge">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<include layout="@layout/toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/upper_curve_shape"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/challenger_insight"
+            android:fontFamily="@font/dimbo"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="40dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="5dp"
+                android:backgroundTint="#3ab548"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/dimbo"
+                    android:textSize="30sp"
+                    android:textColor="#ffffff"
+
+                    android:id="@+id/min_challenge"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/dimbo"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:text="min"
+                    android:layout_marginTop="20dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dimbo"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="@string/total_minutes_read"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="5dp"
+                android:backgroundTint="#068bff"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/dimbo"
+                    android:textSize="30sp"
+                    android:textColor="#ffffff"
+                    android:id="@+id/streak_challenge"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/dimbo"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:text="days"
+                    android:layout_marginTop="20dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dimbo"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="@string/daily_streak"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="5dp"
+                android:backgroundTint="#068bff"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/dimbo"
+                    android:textSize="30sp"
+                    android:textColor="#ffffff"
+                    android:id="@+id/days_challenge"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/dimbo"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:text="days"
+                    android:layout_marginTop="20dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dimbo"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="@string/total_days_read"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="5dp"
+                android:backgroundTint="#3ab548"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/dimbo"
+                    android:textSize="30sp"
+                    android:textColor="#ffffff"
+
+                    android:id="@+id/total_mins"/>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dimbo"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="@string/bible_read"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="#ffffff">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="5dp"
+            android:backgroundTint="#068bff"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/dimbo"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:id="@+id/token_challenge"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dimbo"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="@string/tokens_earned"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:background="#ffffff"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginStart="20dp">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="24sp"-->
+<!--            android:fontFamily="@font/dimbo"-->
+<!--            android:text="@string/what_you_have_read"-->
+<!--            android:textColor="#000000"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginStart="30dp"/>-->
+<!--        <View-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="1" />-->
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/ic_chevron_right_black_24dp"-->
+<!--            android:layout_gravity="center"/>-->
+
+
+<!--    </LinearLayout>-->
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:background="#ceced3"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginStart="20dp"/>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:background="#ffffff"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginStart="20dp">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="24sp"-->
+<!--            android:fontFamily="@font/dimbo"-->
+<!--            android:text="@string/saved_verses"-->
+<!--            android:textColor="#000000"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginStart="30dp"/>-->
+<!--        <View-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="1" />-->
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/ic_chevron_right_black_24dp"-->
+<!--            android:layout_gravity="center"/>-->
+<!--    </LinearLayout>-->
+
+    <Button
+        android:id="@+id/redeem_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/redeem_rewards"
+        android:textSize="24sp"
+        android:textColor="@color/text_color"
+        android:fontFamily="@font/dimbo"
+        android:layout_gravity="center"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:elevation="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_shape_simple"/>
+    </LinearLayout>
+</ScrollView>

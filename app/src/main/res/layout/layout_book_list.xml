@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:elevation="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:elevation="5dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/image_book"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/dimbo"
+        android:textColor="#000000"
+        android:textSize="24sp"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+<!--    <com.white.progressview.CircleProgressView-->
+<!--        android:id="@+id/image_book_completion"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginLeft="100dp"-->
+<!--        android:layout_marginStart="100dp"-->
+<!--        android:progress="70"-->
+<!--        app:progressTextVisible="true"-->
+<!--        app:radius="20dp"-->
+<!--        app:progressReachColor="#3ab548"-->
+<!--        app:progressTextColor="#3ab548"-->
+<!--        />-->
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

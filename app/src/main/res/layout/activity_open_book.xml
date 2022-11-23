@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Open_book">
+
+  <include layout="@layout/toolbar"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:weightSum="3"
+      android:background="@color/text_color">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/book"
+        android:fontFamily="@font/dimbo"
+        android:background="@drawable/button_shape3"
+        android:textColor="#ffffff"
+        />
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/chapter"
+        android:fontFamily="@font/dimbo"
+        android:background="@drawable/button_shape3"
+        android:textColor="#ffffff"/>
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/verse"
+        android:fontFamily="@font/dimbo"
+        android:background="@drawable/button_shape3"
+        android:textColor="#ffffff"
+        />
+
+  </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="400dp"
+     android:orientation="vertical"
+     android:layout_marginTop="20dp">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="300dp"
+       android:id="@+id/verse"
+       android:fontFamily="@font/dimbo"
+       android:textSize="28sp"
+       android:layout_marginStart="20dp"
+       android:layout_marginEnd="20dp"
+
+       />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="20dp">
+
+     <View
+         android:layout_width="0dp"
+         android:layout_height="0dp"
+         android:layout_weight="1" />
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/forward"
+         android:src="@drawable/forward"/>
+   </LinearLayout>
+ </LinearLayout>
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="2dp"
+      android:background="#ceced3" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginTop="10dp">
+
+    <ticker.views.com.ticker.widgets.circular.timer.view.CircularView
+        android:id="@+id/circular_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:m_circle_radius="40"
+        app:m_cicle_stroke_width="2"
+        app:m_arc_stroke_color="@android:color/white"
+        app:m_circle_stroke_color="#656565"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/lcd_std_regular"
+        android:textColor="@color/text_color"
+        android:textSize="24sp"/>
+  </LinearLayout>
+  <LinearLayout
+      android:id="@+id/linearLayout3"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/books"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/dimbo"
+        android:text="Days of consecutive reading"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/challenger_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/dimbo"
+        android:text=""
+        android:textColor="#50b65e"
+        android:textSize="20sp" />
+
+  </LinearLayout>
+</LinearLayout>
