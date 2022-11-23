@@ -1,0 +1,4 @@
+#Wed Jan 15 18:03:40 PKT 2020
+base.0=C\:\\Users\\tUrBo\\OneDrive\\Desktop\\BooksOfBibles\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex
