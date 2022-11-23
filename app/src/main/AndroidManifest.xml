@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.booksofbibles">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Verses"></activity>
+        <activity
+            android:name=".GuidedVideo"
+            android:screenOrientation="landscape" />
+        <activity android:name=".AskGuidedMethod2" />
+        <activity android:name=".Sample" />
+        <activity android:name=".Food" />
+        <activity android:name=".Challenge" />
+        <activity android:name=".Chapters" />
+        <activity android:name=".List_of_books" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".Open_book" />
+        <activity android:name=".AskGuidedMethod" />
+        <activity android:name=".FoodFamilyFun" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>
