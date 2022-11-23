@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Books Of Bibles</string>
+    <string name="_1440_minutes_in_a_day_can_you_give_god_two_minutes">1440 Minutes in a Day...can you give God two Minutes</string>
+    <string name="lives_changed_by_reading_god_words">Lives Changed by Reading God words</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="take_the_two_minute_challenge">Take the Two Minute Challenge</string>
+    <string name="read_the_words_reap_rewards">Read the Words, Reap Rewards</string>
+    <string name="accept_the_challenge">Accept the Challenge</string>
+    <string name="total_2mc_challengers">Total 2MC Challengers:</string>
+    <string name="total_minutes_read">Total Minutes Read:</string>
+    <string name="guided_reading">Guided reading</string>
+    <string name="self_guided">Self guided</string>
+    <string name="or">OR</string>
+    <string name="books_of_bible">Books Of Bible</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="token_earned">Token Earned</string>
+    <string name="redeem_rewards">REDEEM REWARDS</string>
+    <string name="food">Food</string>
+    <string name="family">Family</string>
+    <string name="fun">Fun</string>
+    <string name="tokens_needed_to_redeem_incentive">TOKENS NEEDED TO REDEEM INCENTIVE :</string>
+    <string name="book">Book</string>
+    <string name="chapter">Chapter</string>
+    <string name="verse">Verse</string>
+    <string name="total_days_read">Total days Read</string>
+    <string name="daily_streak">Daily Streak</string>
+    <string name="bible_read">Bible Read</string>
+    <string name="tokens_earned">Tokens Earned</string>
+    <string name="what_you_have_read">What you have read</string>
+    <string name="saved_verses">Saved Verses</string>
+    <string name="i_commit_to_daily_bible_reading">I Commit to Daily Bible Reading</string>
+    <string name="challenger_insight">CHALLENGER INSIGHT</string>
+    <string name="continue_reading">Continue Reading</string>
+    <string name="niv">NIV</string>
+    <string name="nkjv">NkJV</string>
+    <string name="insights">Insights</string>
+    <string name="congratulation">Congratulation</string>
+    <string name="redeem_token">Redeem Token</string>
+    <string name="you_have_earned_a_token">You Have Earned a Token</string>
+</resources>
